@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WordList</string>
+    <string name="edit_text_placeholder">Word</string>
+    <string name="home_button_label">Insert</string>
+    <string name="inserted_toast">Inserted %s.</string>
+    <string name="list_words">List</string>
+    <string name="drop_DB">Drop Database</string>
+    <string name="word_update">Update Word</string>
+    <string name="delete_word">Delete</string>
+    <string name="update_word">Update</string>
+    <string name="dialog_message_one">This will Delete all words. Are you sure?</string>
+    <string name="dialog_message_two">This will Delete this word. Are you sure?</string>
+</resources>

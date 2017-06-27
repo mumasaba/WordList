@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_item_list_words"
+          android:icon="@drawable/ic_action_name"
+          android:title="@string/list_words"
+          app:showAsAction="ifRoom|withText" />
+
+    <item android:id="@+id/menu_item_drop_database"
+          android:title="@string/drop_DB" />
+
+</menu>
