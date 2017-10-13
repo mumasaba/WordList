@@ -15,6 +15,7 @@ import java.util.Locale;
 
 /**
  * Created by b3nn on 4/1/17.
+ * Activity displaying the details of a word in our database.
  */
 
 public class WordDetailActivity extends AppCompatActivity {

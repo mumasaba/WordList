@@ -1,5 +1,6 @@
 package com.qualitycyberservices.android.wordlist;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -18,6 +19,7 @@ import java.util.List;
 
 /**
  * Created by b3nn on 3/24/17.
+ * Activity displaying the words in our database. The words are displayed in a RecyclerView.
  */
 
 public class WordsActivity extends AppCompatActivity {
@@ -107,5 +109,9 @@ public class WordsActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         updateUI();
+    }
+
+    public static Intent newIntent( Context packageContext ) {
+        return new Intent( packageContext, WordsActivity.class );
     }
 }

@@ -12,6 +12,11 @@ import android.widget.EditText;
 
 import com.qualitycyberservices.android.wordlist.db.Word;
 
+/**
+ * Created by b3nn (Mumasaba) on 3/24/17.
+ * This is the main Activity of the app
+ */
+
 public class WordListActivity extends AppCompatActivity {
     EditText mEditText;
     Button mButton;
@@ -54,7 +59,7 @@ public class WordListActivity extends AppCompatActivity {
         switch ( item.getItemId() ) {
 
             case R.id.menu_item_list_words:
-                Intent i = new Intent( this, WordsActivity.class );
+                Intent i = WordsActivity.newIntent( WordListActivity.this );
                 startActivity( i );
 
                 return true;
